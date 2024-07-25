@@ -1,0 +1,37 @@
+* {
+    font-family: 'Brush Script MT', cursive;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    max-width: 700px;
+    margin: auto;
+    filter: drop-shadow(0px 0px 1px #1a521d);
+    transition: transform 0.2s;
+}
+
+body {
+    background-color: #000f02;
+    color: #35a03a;
+}
+
+img {
+    display: block;
+    z-index: -1; 
+}
+
+*:hover {
+    transform: scale(1.05);
+}
+
+header {
+    width: 70%;
+    padding-top: 35%;
+    text-align: center;
+}
+
+.skibidiText {
+    padding-top: 10px;
+    color: #3cbe42;
+}
